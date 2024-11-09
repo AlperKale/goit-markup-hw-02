@@ -7,6 +7,7 @@ body {
 ul {
   list-style-type: none;
 }
+
 section .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -27,6 +28,7 @@ section .section-title {
   color: #4d5ae5;
   text-transform: uppercase;
 }
+
 .logo .logo-span {
   color: #2e2f42;
 }
@@ -34,10 +36,12 @@ section .section-title {
 .nav-list li {
   color: #2e2f42;
 }
+
 .nav-list a:hover,
 .nav-list a:focus {
   color: #404bbf;
 }
+
 .nav-list .nav-link {
   color: inherit;
   text-decoration: none;
@@ -47,16 +51,20 @@ section .section-title {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .address-menu {
   font-style: normal;
 }
+
 .address-list .address-link {
   color: #434455;
 }
+
 .address-list .address-link:hover,
 .address-list .address-link:focus {
   color: #404bbf;
 }
+
 .address-list .address-link {
   color: inherit;
   text-decoration: none;
@@ -73,11 +81,13 @@ section .section-title {
   color: #ffffff;
   text-align: center;
 }
+
 .hero .title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+
 .hero .btn {
   border-radius: 4px;
   min-width: 169px;
@@ -86,12 +96,12 @@ section .section-title {
   background-color: #4d5ae5;
   text-transform: capitalize;
   color: #ffffff;
-  box-shadow: 0px 4px 4px 0px #00000026;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
 }
+
 .hero .btn:hover,
 .hero .btn:focus {
   background-color: #404bbf;
@@ -104,6 +114,7 @@ section .section-title {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .features .feature-list .description {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,14 +123,17 @@ section .section-title {
 .team {
   background-color: #f4f4fd;
 }
+
 .team .section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
+
 .team .team-list .team-item {
   background-color: #ffffff;
 }
+
 .team .team-list .team-item .name {
   font-weight: 500;
   font-size: 20px;
@@ -127,6 +141,7 @@ section .section-title {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team .team-list .team-item .departman {
   font-size: 16px;
   line-height: 1.5;
@@ -140,19 +155,23 @@ section .section-title {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio .portfolio-list .sub-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 footer {
   background-color: #2e2f42;
   color: white;
 }
+
 footer .logo .logo-span {
-  color: #f4f4fd ;
+  color: #f4f4fd;
 }
+
 footer .detail {
   line-height: 1.5;
   color: #f4f4fd;
