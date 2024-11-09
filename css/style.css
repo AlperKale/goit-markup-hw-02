@@ -7,8 +7,7 @@ body {
 ul {
   list-style-type: none;
 }
-
-.section-heading {
+section .section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -17,7 +16,7 @@ ul {
   color: #2e2f42;
 }
 
-.brand-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -28,21 +27,18 @@ ul {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-
-.brand-span {
+.logo .logo-span {
   color: #2e2f42;
 }
 
-.menu-items li {
+.nav-list li {
   color: #2e2f42;
 }
-
-.menu-items a:hover,
-.menu-items a:focus {
+.nav-list a:hover,
+.nav-list a:focus {
   color: #404bbf;
 }
-
-.menu-link {
+.nav-list .nav-link {
   color: inherit;
   text-decoration: none;
   font-size: 16px;
@@ -51,21 +47,17 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
-.contact-info {
+.address-menu {
   font-style: normal;
 }
-
-.contact-items .contact-link {
+.address-list .address-link {
   color: #434455;
 }
-
-.contact-items .contact-link:hover,
-.contact-items .contact-link:focus {
+.address-list .address-link:hover,
+.address-list .address-link:focus {
   color: #404bbf;
 }
-
-.contact-link {
+.address-list .address-link {
   color: inherit;
   text-decoration: none;
   font-size: 16px;
@@ -74,21 +66,17 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
-/* service-section */
-.service-section {
+.anasec {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
 }
-
-.service-title {
+.anasec .title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-
-.action-btn {
+.anasec .btn {
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -98,77 +86,68 @@ ul {
   cursor: pointer;
 }
 
-.action-btn:hover,
-.action-btn:focus {
+.anasec .btn:hover,
+.anasec .btn:focus {
   background-color: #404bbf;
 }
 
-.feature-items .feature-heading {
+.features .feature-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.feature-items .feature-description {
+.features .feature-list .description {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.team-section {
+.team {
   background-color: #f4f4fd;
 }
-
-.team-section .section-heading {
+.team .section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
 }
-
-.team-items .team-member {
+.team .team-list .team-item {
   background-color: #ffffff;
 }
-
-.team-items .member-name {
+.team .team-list .team-item .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.team-items .member-role {
+.team .team-list .team-item .departman {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.portfolio-items .portfolio-title {
+.portfolio .portfolio-list .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.portfolio-items .portfolio-category {
+.portfolio .portfolio-list .sub-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.site-footer {
+footer {
   background-color: #2e2f42;
   color: white;
 }
-
-.footer-logo .footer-span {
+footer .logo .logo-span {
   color: #2e2f42;
 }
-
-.footer-detail {
+footer .detail {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
