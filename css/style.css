@@ -8,15 +8,10 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul {
   margin: 0;
   padding: 0;
-}
-ul {
   list-style-type: none;
 }
 img {
@@ -51,9 +46,6 @@ img {
 .logo .logo-span {
   color: #2e2f42;
 }
-
-/* * Nav Menu */
-
 .nav-menu {
   display: flex;
   align-items: center;
@@ -86,9 +78,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
-/* * Address Menu */
-
 .address-menu {
   font-style: normal;
 }
@@ -108,9 +97,6 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
-/* Main */
-/* Hero */
 .hero {
   height: 600px;
   background-color: #2e2f42;
@@ -123,7 +109,6 @@ img {
   justify-content: center;
   gap: 48px;
 }
-/* Effective Solutions for Your Business*/
 .hero .title {
   margin: 0;
   font-size: 56px;
@@ -152,8 +137,6 @@ img {
 .hero .btn:focus {
   background-color: #404bbf;
 }
-/* * All Section Style */
-
 section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -213,7 +196,6 @@ section .section-title.visually-hidden {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 8px;
-  /* text-align: center; */
 }
 .container .section-list .section-item .description,
 .container .section-list .section-item .section-content .description {
@@ -221,11 +203,8 @@ section .section-title.visually-hidden {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* text-align: center; */
+ 
 }
-/* Features */
-
-/* Team */
 .team {
   background-color: #f4f4fd;
 }
@@ -240,7 +219,6 @@ section .section-title.visually-hidden {
   text-align: center;
 }
 
-/* Portfolio */
 .portfolio .container .section-list {
   display: flex;
   flex-wrap: wrap;
@@ -265,8 +243,6 @@ section .section-title.visually-hidden {
   .description {
   text-align: left;
 }
-
-/* Footer */
 footer {
   background-color: #2e2f42;
   color: white;
