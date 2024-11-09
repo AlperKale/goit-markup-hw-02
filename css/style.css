@@ -80,14 +80,18 @@ section .section-title {
 }
 .hero .btn {
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
+  text-transform: capitalize;
   color: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000026;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
 }
-
 .hero .btn:hover,
 .hero .btn:focus {
   background-color: #404bbf;
@@ -147,10 +151,11 @@ footer {
   color: white;
 }
 footer .logo .logo-span {
-  color: #2e2f42;
+  color: #fff;
 }
 footer .detail {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
