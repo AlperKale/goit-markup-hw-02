@@ -1,3 +1,4 @@
+/* Genel Stil */
 body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
@@ -5,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -14,14 +16,15 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
 img {
   display: block;
   width: 100%;
 }
 
+/* Header */
 .page-header {
   height: 72px;
-
   box-sizing: border-box;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -43,9 +46,11 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
 }
+
 .logo .logo-span {
   color: #2e2f42;
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -57,12 +62,15 @@ img {
   flex-direction: row;
   gap: 40px;
 }
+
 .nav-list .nav-item {
   padding: 24px 0;
 }
+
 .nav-list .nav-item .nav-link {
   color: #2e2f42;
 }
+
 .nav-list .nav-item:hover,
 .nav-list .nav-item:focus {
   color: #404bbf;
@@ -78,16 +86,20 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .address-menu {
   font-style: normal;
 }
+
 .address-list .address-link {
   color: #434455;
 }
+
 .address-list .address-link:hover,
 .address-list .address-link:focus {
   color: #404bbf;
 }
+
 .address-list .address-link {
   color: inherit;
   text-decoration: none;
@@ -97,6 +109,8 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+/* Hero */
 .hero {
   height: 600px;
   background-color: #2e2f42;
@@ -105,19 +119,21 @@ img {
   padding-bottom: 188px;
   text-align: center;
 }
+
 .hero .container {
   justify-content: center;
   gap: 48px;
 }
+
 .hero .title {
   margin: 0;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 60px;
   letter-spacing: 1.12px;
   max-width: 496px;
 }
+
 .hero .btn {
   border-radius: 4px;
   min-width: 169px;
@@ -137,10 +153,13 @@ img {
 .hero .btn:focus {
   background-color: #404bbf;
 }
+
+/* Section */
 section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 section .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -155,20 +174,22 @@ section .section-title.visually-hidden {
   visibility: hidden;
 }
 
+/* Container */
 .container {
   width: 1158px;
-  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   padding: 0 15px;
 }
+
 .container .section-lists {
   display: flex;
   flex-direction: column;
   gap: 48px;
 }
+
 .container .section-list {
   display: flex;
   flex-direction: row;
@@ -187,6 +208,7 @@ section .section-title.visually-hidden {
   display: flex;
   flex-direction: column;
 }
+
 .container .section-list .section-item .title,
 .container .section-list .section-item .section-content .title {
   font-weight: 500;
@@ -197,68 +219,77 @@ section .section-title.visually-hidden {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
+
 .container .section-list .section-item .description,
 .container .section-list .section-item .section-content .description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
- 
 }
+
+/* Team Section */
 .team {
   background-color: #f4f4fd;
 }
+
 .team .container .section-list .section-item {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+
 .team .container .section-list .section-item .section-content .title,
 .team .container .section-list .section-item .section-content .description {
   text-align: center;
 }
 
+/* Portfolio Section */
 .portfolio .container .section-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio .container .section-list .section-item {
   width: fit-content;
 }
+
 .portfolio .container .section-list .section-item .section-content {
   padding-left: 16px;
   padding-right: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .portfolio .container .section-list .section-item .section-content .title,
-.portfolio
-  .container
-  .section-list
-  .section-item
-  .section-content
-  .description {
+.portfolio .container .section-list .section-item .section-content .description {
   text-align: left;
 }
+
+/* Footer */
 footer {
   background-color: #2e2f42;
   color: white;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 footer .container {
   align-items: start;
 }
+
 footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 footer .logo .logo-span {
   color: #fff;
 }
+
 footer .detail {
   line-height: 1.5;
   color: #f4f4fd;
