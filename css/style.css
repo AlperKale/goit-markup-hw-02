@@ -73,8 +73,8 @@ body {
   cursor: pointer;
 }
 
-.hero-section:hover .cta-button,
-.hero-section:focus .cta-button {
+.hero-section .cta-button:hover,
+.hero-section .cta-button:focus {
   background-color: #404bbf;
 }
 
